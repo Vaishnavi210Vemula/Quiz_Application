@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>QuizServlet</servlet-name>
+        <servlet-class>QuizServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>QuizServlet</servlet-name>
+        <url-pattern>/quiz</url-pattern>
+        <url-pattern>/frontend/*</url-pattern>
+    </servlet-mapping>
+</web-app>
